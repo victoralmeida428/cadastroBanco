@@ -5,6 +5,7 @@ const bntTirarFoto = document.querySelector('[data-tirar-foto]');
 const canvas = document.querySelector('[data-video-canvas]');
 const mensagem = document.querySelector('[data-mensagem]');
 
+let imagemURL = "";
 
 btnIniciarCamera.addEventListener('click', async function () {
     const iniciarVideo = await navigator.mediaDevices
